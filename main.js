@@ -36,6 +36,8 @@ function overlay(p) {
     p.background(0);
     p.fill(0);
     p.stroke(255);
+    cols = c2.width/15
+    rows = c2.height/15
     tileWidth = p.width / cols;
     tileHeight = p.height / rows;
     
